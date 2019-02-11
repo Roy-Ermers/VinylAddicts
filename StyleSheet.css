@@ -1,0 +1,55 @@
+/* Index */
+body {
+    background-color: #3A4750;
+    margin: 0;
+}
+
+header #Div1 {
+    background-color: #E5447E;
+    width: 100%;
+    height: 42px;
+}
+
+header > div > #Div1 > ul > li {
+    float: right;
+    list-style: none;
+    color: #FFFFFF;
+    opacity: 0.69;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+header > div > #Div2 > ul > li {
+    float: right;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 16px;
+    font-size: 24px;
+    color: #7B7B7B;
+}
+
+header #Div2 {
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 63px;
+}
+
+ul {
+    margin: 0;
+}
+
+#HdrLogo {
+    width: 418px;
+    height: 200px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 209px;
+}
+header > div {
+    flex: 1;
+}
