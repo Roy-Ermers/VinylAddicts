@@ -18,9 +18,10 @@ table {
 td {
     height: 30px;
 }
-#Opmerking, #Telefoon, #Email, #Naam, #Nieuws, #Aanhef{
+#Opmerking, #Telefoon, #Email, #Naam, #Nieuws, #Aanhef {
     border-radius: 10px;
-    width:390px;
+    width: 390px;
+    font-family: Segoe UI, Regular;
 }
 #Opmerking
 {

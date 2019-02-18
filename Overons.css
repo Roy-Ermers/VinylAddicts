@@ -1,0 +1,68 @@
+﻿body
+{
+}
+#formDiv {
+    background-color: #313C43;
+    border-radius: 25px;
+    height: 80%;
+    width: 630px;
+    position: absolute;
+    left: 420px;
+    top: 30%;
+}
+p {
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+h1{
+    text-align:center;
+    color: #FFFFFF;
+}
+#Extrafoto1 {
+    background-color: #313C43;
+    border-radius: 25px;
+    position: static;
+    margin-left: 100px;
+    top: 100px;
+    height: 170px;
+    width: 220px;
+}
+#Extrafoto1>img {
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+#Extrafoto2 {
+    background-color: #313C43;
+    border-radius: 25px;
+    position: static;
+    margin-left: 1200px;
+    top: 100px;
+    height: 220px;
+    width: 170px;
+}
+
+    #Extrafoto2 > img {
+        height: 200px;
+        padding-top: 10px;
+        padding-left: 10px;
+        border-radius: 25px;
+    }
+
+#Extrafoto3 {
+    background-color: #313C43;
+    border-radius: 25px;
+    position: static;
+    margin-left: 200px;
+    top: 100px;
+    height: 220px;
+    width: 170px;
+}
+
+    #Extrafoto3 > img {
+        height: 200px;
+        padding-top: 10px;
+        padding-left: 10px;
+        border-radius: 25px;
+    }
