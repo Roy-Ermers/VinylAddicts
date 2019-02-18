@@ -202,3 +202,12 @@ hr.short.dark {
     opacity: 0.25;
     width: 450px;
 }
+#Div2>ul>li>a.selected {
+    color: #7B7B7B;
+    text-decoration: none;
+}
+#Div1 > ul > li > a.selected2 {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
