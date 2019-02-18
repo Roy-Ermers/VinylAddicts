@@ -1,4 +1,9 @@
 /* Index */
+
+* {
+    outline: none;
+}
+
 body {
     background: linear-gradient(20deg, #3A4750, #3A4750 65%, #37434b 65%, #37434b);
     background-size: cover;
@@ -6,6 +11,7 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body::before {
@@ -85,6 +91,22 @@ header>div {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 100px;
+}
+
+.album-cover>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    left: var(--exposure, 0);
+    transform: rotateZ(calc(var(--exposure) * 1deg));
+    transition: 250ms left ease-out;
+}
+
+.album-cover:hover>img {
+    left: var(--exposure, 10%);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .album-cover>.sleeve {
@@ -100,9 +122,83 @@ header>div {
     z-index: 1;
 }
 
-.album-cover>img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
+.zeldzaamheidschecker aside>p {
+    color: #FFF;
+    margin-bottom: 2px;
+    font-size: 19px;
+}
+
+aside {
+    text-align: center;
+    flex: 1;
+}
+
+input[type=text], input[type=number] {
+    padding: 8px;
+    background-color: #2D373E;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 33%;
+}
+
+input[type=text]:first-of-type {
+    font-size: 32px;
+}
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    display: none;
+}
+
+input[type=radio] {
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-block;
+}
+
+input[type=radio]::after {
+    content: attr(value);
+    display: inline-block;
+    background-color: #9b8110;
+    transition: background-color 250ms ease-in-out;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 2.5em;
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.16);
+}
+
+input[type=radio]:checked::after {
+    background-color: #F6C90E;
+}
+
+button {
+    border: none;
+    background-color: #F6C90E;
+    transition: background-color 250ms ease-in-out;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 10px;
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.16);
+    user-select: none;
+    transition: background-color 250ms ease-in-out;
+}
+
+button:hover {
+    background-color: #9b8110;
+}
+
+hr.short.dark {
+    margin-top: 1em;
+    border-width: 2.5px;
+    border-color: #808080;
+    border-style: solid;
+    opacity: 0.25;
+    width: 450px;
 }
