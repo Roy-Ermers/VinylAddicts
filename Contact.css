@@ -5,7 +5,7 @@
 #formDiv {
     background-color: #313C43;
     border-radius: 25px;
-    height: 330px;
+    height: 295px;
     width: 580px;
     position: absolute;
     left: 470px;
@@ -18,17 +18,24 @@ table {
 td {
     height: 30px;
 }
-input, textarea, select{
+#Opmerking, #Telefoon, #Email, #Naam, #Nieuws, #Aanhef{
     border-radius: 10px;
+    width:390px;
 }
-#Opmerking{
-    height: 100px;
-    width: 400px;
+#Opmerking
+{
+    height: 60px;
+}
+#Nieuws
+{
+    height:20px;
 }
 .Button {
     background-color: rgba(246, 201, 14, 1);
     border-color: rgba(246, 201, 14, 1);
+    border-radius: 10px;
     height: 35px;
     width: 100px;
     margin-left: 20px;
 }
+

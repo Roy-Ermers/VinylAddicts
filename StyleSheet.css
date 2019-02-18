@@ -106,3 +106,11 @@ header>div {
     height: 100%;
     z-index: 0;
 }
+#Div2>ul>li>a.selected {
+    color: #7B7B7B;
+    text-decoration: none;
+}
+#Div1 > ul > li > a.selected2 {
+    color: #FFFFFF;
+    text-decoration: none;
+}
