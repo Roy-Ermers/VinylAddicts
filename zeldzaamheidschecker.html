@@ -1,10 +1,3 @@
-<!--
-Auteur:         Niels van Laarhoven
-Datum:          14-6-2018
-Bestandsnaam:   Index.html  
-Opdracht:       Toets P4
--->
-
 <!DOCTYPE html>
 <html>
 
@@ -13,7 +6,8 @@ Opdracht:       Toets P4
 	<meta name="Description" content="">
 	<meta charset="UTF-8">
 	<link href="StyleSheet.css" type="text/css" rel="StyleSheet">
-	<title>Toets P4</title>
+	<script src="scripts/zeldzaamheidschecker.js" defer></script>
+	<title>Vinyl Addicts</title>
 </head>
 
 <body>
@@ -63,6 +57,21 @@ Opdracht:       Toets P4
 				?
 			</p>
 		</div>
+		<aside>
+			<p>Welke artiest heeft dit album geschreven?</p>
+			<input type="text" id="Artist" placeholder="Eg. Queen">
+
+			<p>Wanneer is dit album uitgekomen?</p>
+			<input type="number" id="Year" placeholder="Eg. 1999">
+
+			<p>Is het album een Collectors Edition?</p>
+			<div>
+				<input type="radio" name="Collectors" value="no">
+				<input type="radio" name="Collectors" value="yes" checked>
+			</div>
+			<hr class="short dark">
+			<button>Check Je album ></button>
+		</aside>
 	</main>
 	<footer>
 	</footer>
