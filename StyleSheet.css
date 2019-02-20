@@ -26,7 +26,7 @@ body::before {
     transform: rotate(25deg);
 }
 
-header #Div1 {
+header>div>#Div1 {
     background-color: #E5447E;
     width: 100%;
     height: 42px;
