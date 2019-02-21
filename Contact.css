@@ -23,6 +23,7 @@ td {
     border-radius: 10px;
     width: 390px;
     font-family: Segoe UI, Regular;
+    border:None;
 }
 #Opmerking
 {
@@ -39,5 +40,6 @@ td {
     height: 35px;
     width: 100px;
     margin-left: 20px;
+    border: None;
 }
 
