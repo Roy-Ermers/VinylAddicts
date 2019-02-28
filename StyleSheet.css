@@ -17,18 +17,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     width: 100vw;
-}
-
-body::before {
-    content: "";
-    background-color: ;
-    height: 75vh;
-    width: 100vw;
-    position: fixed;
-    z-index: -100;
-    right: -25%;
-    top: -25%;
-    transform: rotate(25deg);
+    overflow-x: hidden;
 }
 
 main {
@@ -145,8 +134,7 @@ aside {
     flex: 1;
 }
 
-.zeldzaamheidschecker [type=text],
-input[type=number] {
+.zeldzaamheidschecker [type=text], input[type=number] {
     padding: 8px;
     background-color: #2D373E;
     color: #FFF;
@@ -161,8 +149,7 @@ input[type=number] {
     font-size: 32px;
 }
 
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
     display: none;
 }
 
@@ -193,7 +180,6 @@ input[type=radio]:checked::after {
 button {
     border: none;
     background-color: #F6C90E;
-    transition: background-color 250ms ease-in-out;
     color: #FFF;
     border-radius: 5px;
     font-size: 16px;
@@ -201,7 +187,7 @@ button {
     padding: 5px 10px;
     box-shadow: 3px 0 6px rgba(0, 0, 0, 0.16);
     user-select: none;
-    transition: background-color 250ms ease-in-out;
+    transition: background-color 100ms ease-in-out;
 }
 
 button:hover {
@@ -234,8 +220,7 @@ hr.short.dark {
     width: 100%;
 }
 
-.carrousel>.left,
-.carrousel>.right {
+.carrousel>.left, .carrousel>.right {
     color: #FFF;
     font-size: 5em;
     margin: 0;
@@ -476,12 +461,9 @@ article span {
     .carrousel {
         align-items: center;
     }
-
-    .carrousel .left,
-    .carrousel .right {
+    .carrousel .left, .carrousel .right {
         margin: 0;
     }
-
     .view {
         flex-wrap: wrap;
     }
