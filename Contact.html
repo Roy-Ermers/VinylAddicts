@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <link href="Contact.css" rel="stylesheet" type="text/css" />
@@ -8,42 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 </head>
+
 <body>
     <header>
         <a href="index.html"><img id="HdrLogo" src="images/header_logo.png"></a>
         <div>
-            <div id="Div1">
-                <ul>
-                    <li>
-                        <a  href="Contact.html "class="selected2">
-                            Contact
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Overons.html " class="selected2">
-                            Over ons
-                        </a>
-                    </li>
-                </ul>
+            <div class="pink">
+                <a href="contact.html">Contact</a>
+                <a href="Overons.html">Over ons</a>
             </div>
-            <div id="Div2">
-                <ul>
-                    <li>
-                        <a class="selected" href="zeldzaamheidschecker.html">
-                            Zeldzaamheidschecker
-                        </a>
-                    </li>
-                    <li>
-                        <a class="selected">
-                            Nieuws
-                        </a>
-                    </li>
-                    <li>
-                        <a class="selected">
-                            Aanbod
-                        </a>
-                    </li>
-                </ul>
+            <div class="white">
+                <a href="index.html">Aanbod</a>
+                <a href="nieuws.html">Nieuws</a>
+                <a href="zeldzaamheidschecker.html">Zeldzaamheidschecker</a>
             </div>
         </div>
     </header>
@@ -62,7 +40,7 @@
             </tr>
             <tr>
                 <td>Naam: </td>
-                <td ><input id="Naam" type="text" required /></td>
+                <td><input id="Naam" type="text" required /></td>
             </tr>
             <tr>
                 <td>E-mail: </td>
@@ -74,16 +52,18 @@
             </tr>
             <tr>
                 <td>Opmerking/vragen: </td>
-                <td ><textarea id="Opmerking" required ></textarea></td>
+                <td><textarea id="Opmerking" required></textarea></td>
             </tr>
             <tr>
                 <td>Wilt u de nieuwsbrief: </td>
-                <td ><input id="Nieuws" type="checkbox" /></td>
+                <td><input id="Nieuws" type="checkbox" /></td>
             </tr>
             <tr>
-                <td colspan="2"><input class="Button" type="reset" value="Cancel" /><input class="Button" type="submit" value="Verzend" /></td>
+                <td colspan="2"><input class="Button" type="reset" value="Cancel" /><input class="Button" type="submit"
+                        value="Verzend" /></td>
             </tr>
         </form>
     </table>
 </div>
+
 </html>
