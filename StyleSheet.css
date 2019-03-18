@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    background: linear-gradient(20deg, #3A4750, #3A4750 65%, #37434b 65%, #37434b);
+    background: #3A4750;
+    background-image: linear-gradient(20deg, #3A4750, #3A4750 65%, #37434b 65%, #37434b);
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -458,23 +459,26 @@ article span {
     opacity: 0.5;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 456px) {
     header {
         flex-direction: column-reverse;
         height: auto;
-        margin-top: -4em;
+        margin-top: -6rem;
         transition: margin-top 250ms ease-in-out;
     }
     header .pink, header .white {
         background-color: #E5447E;
         text-align: center;
         margin: 0;
-        height: 2rem;
-        line-height: 2rem;
+        height: 3rem;
+        line-height: 3rem;
         margin-bottom: -1px;
     }
-    header .pink>a, header .white>a {
+    header>div>.pink>a {
         font-size: 1rem;
+    }
+    header .pink>a, header .white>a {
+        font-size: 1.5rem;
         color: #FFF;
         opacity: 1;
     }
