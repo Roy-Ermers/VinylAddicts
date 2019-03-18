@@ -136,7 +136,8 @@ aside {
     flex: 1;
 }
 
-.zeldzaamheidschecker [type=text], input[type=number] {
+.zeldzaamheidschecker [type=text],
+input[type=number] {
     padding: 8px;
     background-color: #2D373E;
     color: #FFF;
@@ -151,7 +152,8 @@ aside {
     font-size: 32px;
 }
 
-::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
     display: none;
 }
 
@@ -222,7 +224,8 @@ hr.short.dark {
     width: 100%;
 }
 
-.carrousel>.left, .carrousel>.right {
+.carrousel>.left,
+.carrousel>.right {
     color: #FFF;
     font-size: 5em;
     margin: 0;
@@ -466,6 +469,7 @@ article span {
         margin-top: -6rem;
         transition: margin-top 250ms ease-in-out;
     }
+
     header::after {
         content: "";
         height: 5px;
@@ -479,7 +483,9 @@ article span {
         box-shadow: #FFF 0 0.66rem 0, #FFF 0 1.33rem 0;
         transition: opacity 200ms ease-in-out;
     }
-    header .pink, header .white {
+
+    header .pink,
+    header .white {
         background-color: #E5447E;
         text-align: center;
         margin: 0;
@@ -487,38 +493,65 @@ article span {
         line-height: 3rem;
         margin-bottom: -1px;
     }
+
     header>div>.pink>a {
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
-    header .pink>a, header .white>a {
-        font-size: 1.5rem;
+
+    header .pink>a,
+    header .white>a {
+        font-size: 1rem;
         color: #FFF;
         opacity: 1;
     }
-    header a, header img {
+
+    header a,
+    header img {
         width: 100%;
-        pointer-events: none;
     }
+
+    header>a {
+        pointer-events: none;
+
+    }
+
     header:hover {
         margin-top: 0;
     }
+
     header:hover::after {
         opacity: 0;
     }
+
     .carrousel {
         align-items: center;
     }
-    .carrousel .left, .carrousel .right {
+
+    .carrousel .left,
+    .carrousel .right {
         margin: 0;
     }
+
     .view {
         flex-wrap: wrap;
     }
+
     .view>img {
         width: 100%;
     }
+
     .album-cover {
         width: 90vw;
         height: 90vw;
+    }
+
+    main>h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    main>hr {
+        width: 90%;
+        margin-left: 5%;
     }
 }
