@@ -42,4 +42,22 @@ td {
     margin-left: 20px;
     border: None;
 }
+@media screen and (max-width: 361px) {
 
+    #formDiv {
+        position: absolute;
+        left: 0px;
+        top: 45%;
+        background-color: #313C43;
+        color: #FFFFFF;
+        border-radius: 25px;
+        height: 295px;
+        width: 445px;
+    }
+    #Opmerking, #Telefoon, #Email, #Naam, #Nieuws, #Aanhef {
+        border-radius: 10px;
+        width: 260px;
+        font-family: Segoe UI, Regular;
+        border: None;
+    }
+}
