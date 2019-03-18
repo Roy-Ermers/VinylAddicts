@@ -82,6 +82,7 @@ header .white {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .album-cover {
@@ -458,6 +459,32 @@ article span {
 }
 
 @media screen and (max-width: 450px) {
+    header {
+        flex-direction: column-reverse;
+        height: auto;
+        margin-top: -4em;
+        transition: margin-top 250ms ease-in-out;
+    }
+    header .pink, header .white {
+        background-color: #E5447E;
+        text-align: center;
+        margin: 0;
+        height: 2rem;
+        line-height: 2rem;
+        margin-bottom: -1px;
+    }
+    header .pink>a, header .white>a {
+        font-size: 1rem;
+        color: #FFF;
+        opacity: 1;
+    }
+    header a, header img {
+        width: 100%;
+        pointer-events: none;
+    }
+    header:hover {
+        margin-top: 0;
+    }
     .carrousel {
         align-items: center;
     }
@@ -466,5 +493,12 @@ article span {
     }
     .view {
         flex-wrap: wrap;
+    }
+    .view>img {
+        width: 100%;
+    }
+    .album-cover {
+        width: 90vw;
+        height: 90vw;
     }
 }
