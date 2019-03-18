@@ -21,9 +21,9 @@ h1{
 #Extrafoto1 {
     background-color: #313C43;
     border-radius: 25px;
-    position: static;
+    position: absolute;
     margin-left: 100px;
-    top: 100px;
+    top: 250px;
     height: 170px;
     width: 220px;
 }
@@ -36,33 +36,92 @@ h1{
 #Extrafoto2 {
     background-color: #313C43;
     border-radius: 25px;
-    position: static;
+    position: absolute;
     margin-left: 1200px;
-    top: 100px;
+    top: 60%;
     height: 220px;
     width: 170px;
 }
 
-    #Extrafoto2 > img {
-        height: 200px;
-        padding-top: 10px;
-        padding-left: 10px;
-        border-radius: 25px;
-    }
+#Extrafoto2 > img {
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 25px;
+}
 
 #Extrafoto3 {
     background-color: #313C43;
     border-radius: 25px;
-    position: static;
+    position: absolute;
     margin-left: 200px;
-    top: 100px;
+    top: 90%;
     height: 220px;
     width: 170px;
 }
 
-    #Extrafoto3 > img {
-        height: 200px;
+#Extrafoto3 > img {
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 450px) {
+
+    #formDiv {
+        background-color: #313C43;
+        border-radius: 25px;
+        display: inline-block;
+        height: 960px;
+        width: 100vw;
+        position: absolute;
+        left: 0px;
+        top: 40%;
+    }
+    #Extrafoto1 > img {
+        height: 150px;
         padding-top: 10px;
         padding-left: 10px;
         border-radius: 25px;
+        visibility: hidden;
     }
+
+    #Extrafoto2 {
+        background-color: #313C43;
+        border-radius: 25px;
+        position: absolute;
+        margin-left: 1200px;
+        top: 100px;
+        height: 220px;
+        width: 170px;
+        visibility: hidden;
+    }
+
+        #Extrafoto2 > img {
+            height: 200px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-radius: 25px;
+            visibility: hidden;
+        }
+
+    #Extrafoto3 {
+        background-color: #313C43;
+        border-radius: 25px;
+        position: absolute;
+        margin-left: 200px;
+        top: 100px;
+        height: 220px;
+        width: 170px;
+        visibility: hidden;
+    }
+
+        #Extrafoto3 > img {
+            height: 200px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-radius: 25px;
+            visibility: hidden;
+        }
+}
