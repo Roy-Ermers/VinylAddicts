@@ -524,25 +524,33 @@ article span {
     }
 
     .carrousel {
-        align-items: center;
+        justify-content: center;
     }
 
     .carrousel .left,
     .carrousel .right {
-        margin: 0;
+        display: none;
     }
 
-    .view {
+    .carrousel>.view {
         flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
     }
 
     .view>img {
-        width: 100%;
+        width: 90vw;
+        height: 90vw;
     }
 
     .album-cover {
         width: 90vw;
         height: 90vw;
+    }
+
+    .search-field {
+        margin: 0;
+        border-radius: 0;
     }
 
     main>h1 {
