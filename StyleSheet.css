@@ -527,6 +527,8 @@ article span {
     .album-cover {
         width: 90vw;
         height: 90vw;
+        margin: 0;
+        overflow: hidden;
     }
     .search-field {
         margin: 0;
