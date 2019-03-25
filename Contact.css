@@ -42,7 +42,7 @@ td {
     margin-left: 20px;
     border: None;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 456px) {
 
     #formDiv {
         position: absolute;
@@ -54,12 +54,14 @@ td {
         height: 295px;
         width: 100vw;
     }
+
     #Opmerking, #Telefoon, #Email, #Naam, #Nieuws, #Aanhef {
         border-radius: 10px;
         width: 180px;
         font-family: Segoe UI, Regular;
         border: None;
     }
+
     .Button {
         background-color: rgba(246, 201, 14, 1);
         border-color: rgba(246, 201, 14, 1);

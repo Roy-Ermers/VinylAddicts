@@ -68,7 +68,7 @@ h1{
     border-radius: 25px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 456px) {
 
     #formDiv {
         background-color: #313C43;
@@ -80,6 +80,7 @@ h1{
         left: 0px;
         top: 25%;
     }
+
     #Extrafoto1 {
         background-color: #313C43;
         border-radius: 25px;
@@ -90,13 +91,14 @@ h1{
         width: 220px;
         visibility: hidden;
     }
-    #Extrafoto1 > img {
-        height: 150px;
-        padding-top: 10px;
-        padding-left: 10px;
-        border-radius: 25px;
-        visibility: hidden;
-    }
+
+        #Extrafoto1 > img {
+            height: 150px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-radius: 25px;
+            visibility: hidden;
+        }
 
     #Extrafoto2 {
         background-color: #313C43;
