@@ -1,5 +1,6 @@
-﻿body
-{
+﻿body {
+    background-color: rgba(58, 71, 80, 1);
+    font-family: Segoe UI, Regular;
 }
 #formDiv {
     background-color: #313C43;
@@ -77,7 +78,17 @@ h1{
         width: 100vw;
         position: absolute;
         left: 0px;
-        top: 40%;
+        top: 25%;
+    }
+    #Extrafoto1 {
+        background-color: #313C43;
+        border-radius: 25px;
+        position: absolute;
+        margin-left: 100px;
+        top: 250px;
+        height: 170px;
+        width: 220px;
+        visibility: hidden;
     }
     #Extrafoto1 > img {
         height: 150px;
